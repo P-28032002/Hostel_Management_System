@@ -29,4 +29,4 @@ you're good to go !!! :)
 ```
 ### Results
 ## Tenant Dashboard
-![Screenshot](https://github.com/P-28032002/Hostel_Management_System/Results/Tenant_Dashboard_1.jpg?raw=true)
+![Screenshot](https://github.com/P-28032002/Hostel_Management_System/Results/Tenant_Dashboard_1.jpg)
