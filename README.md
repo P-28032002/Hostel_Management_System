@@ -27,4 +27,6 @@ npm start
 
 you're good to go !!! :)
 ```
-Results
+###Results
+##Tenant Dashboard
+Results/Tenant_Dashboard_1.jpg
