@@ -38,4 +38,4 @@ you're good to go !!! :)
 
 ### Search Result Page
 
-<img src="/Results/Search_Result_Page">
+<img src="/Results/Search_Result_Page.jpg">
