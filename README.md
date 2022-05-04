@@ -25,7 +25,7 @@ Open the folder in one of your IDE
 Open new terminal and type the command 
 npm start
 
-you're good to go !!! :)
+You're good to go !!! :)
 ```
 ## Results
 
