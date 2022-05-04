@@ -29,4 +29,4 @@ you're good to go !!! :)
 ```
 ###Results
 ##Tenant Dashboard
-Results/Tenant_Dashboard_1.jpg
+https://github.com/github/Results/Tenant_Dashboard_1.jpg
