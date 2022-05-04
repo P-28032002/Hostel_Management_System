@@ -29,6 +29,14 @@ you're good to go !!! :)
 ```
 ## Results
 
+### Login
+
+<img src="/Results/Login.jpg">
+
+### Register
+
+<img src="/Results/Register.jpg">
+
 ### Tenant Dashboard
 
 <img src="/Results/Tenant_Dashboard_1.jpg">
