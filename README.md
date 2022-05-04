@@ -27,6 +27,6 @@ npm start
 
 you're good to go !!! :)
 ```
-###Results
-##Tenant Dashboard
-https://github.com/github/Results/Tenant_Dashboard_1.jpg
+### Results
+## Tenant Dashboard
+https://github.com/P-28032002/Hostel_Management_System/Results/Tenant_Dashboard_1.jpg
