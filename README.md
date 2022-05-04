@@ -49,4 +49,6 @@ you're good to go !!! :)
 
 <img src="/Results/Search_Result_Page.jpg">
 
-### Student hostel registra
+### Student hostel registration 
+
+<img src="/Results/Student_hostel_registration_form.jpg">
