@@ -28,6 +28,7 @@ npm start
 you're good to go !!! :)
 ```
 ## Results
+
 ### Tenant Dashboard
 
 <img src="/Results/Tenant_Dashboard_1.jpg">
@@ -39,3 +40,5 @@ you're good to go !!! :)
 ### Search Result Page
 
 <img src="/Results/Search_Result_Page.jpg">
+
+### Student hostel registra
