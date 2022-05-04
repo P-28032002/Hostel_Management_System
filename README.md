@@ -3,10 +3,15 @@ A Hostel Management website which helps tenants to find their accommodation easi
 
 ### Technologies Used
 HTML
+
 CSS
+
 JavaScript
+
 Node.js
+
 Express.js
+
 MySQL
 
 ### Setup
@@ -22,3 +27,4 @@ npm start
 
 you're good to go !!! :)
 ```
+Results
