@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/js/bootstrap.bundle.min.js">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.css"> 
+    <link rel="stylesheet" href="/stylesheets/searchPage.css">
+    <title>Payment Received</title>
+</head>
+<body>
+    <section class="header">
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+              <div class="navbar-header">
+                <a class="navbar-brand" href="#">TripTok</a>
+              </div>
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="/dashboard">Home</a></li>
+                <li><a href="/about">About US</a></li>
+                <li><a href="/contactus">Contact US</a></li>
+              </ul>
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="/profile"><span class="glyphicon glyphicon-user"></span><%= username %></a></li>
+              </ul>
+            </div>
+          </nav>
+    
+    
+    </section>
+       <% /* %>
+    <table>
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Pay</th>
+            <th>Card Number</th>
+            <th>cvv</th>
+            <th>month</th>
+            <th>year</th>
+            <th>amount</th>
+        </tr>
+        <% if(payment.length > 0) { %>
+            <% for(var i = 0;i<payment.length;i++) { %> 
+                <tr>
+                    <td><%- payment[i].fname %></td>
+                    <td><%- payment[i].lname %></td>
+                    <td><%- payment[i].pay %></td>
+                    <td><%- payment[i].cardnumber %></td>
+                    <td><%- payment[i].cvv %></td>
+                    <td><%- payment[i].month %></td>
+                    <td><%- payment[i].year%></td>
+                    <td><%- payment[i].amount %></td>
+                </tr>
+    
+                <% } %>
+    
+                <% } else{ %>
+    
+                    <tr>
+                        <td>Data Not Found</td>
+                    </tr>
+                    
+                <% } %>
+            </table> 
+            <% */ %>
+
+            <% if(payment.length > 0) { %>
+                <% for(var i = 0;i<payment.length;i++) { %> 
+                    <div class="card-w">
+                        <div class="card-body">
+
+                          <h5 class="card-text">Name : <%- payment[i].fname %> <%- payment[i].lname %></h5>
+                          <p class="card-text">Payment Mode : <%- payment[i].pay %></p>
+                          <p class="card-text">rent Amount Paid : <%- payment[i].amount %></p>
+                          <hr style="height:2px;border-width:70;color:gray;background-color:gray">
+           
+                        </div>
+                      </div>   
+                    <% } %>
+        
+                    <% } else{ %>
+    
+                            <h3>Data Not Found</h3>
+                        
+                    <% } %>
+
+                    <section class="footer">
+                        <div class="container">
+                        <div class="row">
+                            <div class="col-md-3">
+                            <img src="/images/triptok.png" class="footer-logo">
+                            <p> Most efficient way to connet tenet and house owner.</p>
+                                
+                            <p> Available at multiple locations </p>
+                    
+                            <p> Easy to use 
+                    
+                    
+                            </p>
+                            </div>
+                            <div class="col-md-3">
+                            <h4>LOCATIONS</h4>
+                            <p>
+                                Pune  Mumbai</p>
+                            <p> Delhi Banglore</p>
+                            <p> Nashik Chennai
+                            </p>
+                        </div>
+                           <div class="col-md-3">
+                            <h4>Countact us </h4>
+                            <p><i class="fa fa-phone-square"></i> +1 0123456789</p>
+                            <p><i class="fa fa-envelope"></i> +1 0123456789</p>
+                            <p><i class="fa fa-home"></i> abc road , pune</p>
+                           </div>
+                            <div class="col-md-3">	<h4>Countact us </h4>
+                                <p><i class="fa fa-facebook-official"></i> Facebook</p>
+                                <p><i class="fa fa-youtube-play"></i> YouTube</p>
+                                <p><i class="fa fa-twitter"></i> Twitter</p>
+                            </div>
+                        </div><hr>
+                        </div>
+                        </section>
+                    
+                     
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>

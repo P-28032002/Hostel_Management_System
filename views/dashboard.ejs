@@ -1,0 +1,246 @@
+<html>
+<head>
+<title>Hostel Website</title>
+<link rel="stylesheet" href="/stylesheets/dashboardPage.css">
+
+<meta name="viewport" content="width=divice-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/js/bootstrap.bundle.min.js">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome /4.7.0/css/font-awesome.min.css">
+
+</head>
+ <body>
+<section class="header">
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">TripTok</a>
+          </div>
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="/dashboard">Home</a></li>
+            <li><a href="/about">About US</a></li>
+            <li><a href="/contact">Contact US</a></li>
+			<li><a href="/login">Logout</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="/profile"><span class="glyphicon glyphicon-user"></span><%= username %></a></li>
+          </ul>
+        </div>
+      </nav>
+
+
+
+<h1>ROOM BOOKINGS MADE EASY</h1>
+<% /* %>
+<div class="container">
+    <div class="row height d-flex justify-content-center align-items-center">
+        <div class="col-md-6">
+			<form action="/search" id="myForm" method="POST">
+				<input type="search" placeholder="Search the city here" name='city' required>
+				<input type="submit" value="Search">
+			</form>
+        </div>
+    </div>
+</div><% */ %>
+</section>
+<div class="wrap">
+	<div class="search">
+		<form action="/search" id="myForm" method="POST">
+	   <input type="text" class="searchTerm" placeholder="What are you looking for?" name='city' required>
+	   <button type="submit" class="searchButton"><i class="fa fa-search"></i> </button>
+	  </form>
+	</div>
+ </div>
+
+<section class="features">
+<h1>Featured Destinations </h1>
+<div class="container">
+<div class="row">
+<div class="col-md-4">
+    <div class="feature-box">
+    <div class="feature-img">
+    <img src="images/1.jpg">
+	<div class="price">
+	<p>78$</p>	
+	</div>
+	<div class="rating">
+		<i class="fa fa-star"></i>
+		<i class="fa fa-star"></i>
+		<i class="fa fa-star"></i>
+		<i class="fa fa-star-half-o"></i>
+		<i class="fa fa-star-o"></i>
+	</div>
+    </div>
+	<div class="cityname">
+		<h4><a href="/hyderabad">Hyderabad</a></h4>	
+	</div>
+    </div>
+</div>
+<div class="col-md-4">
+    <div class="feature-box">
+    <div class="feature-img">
+    <img src="images/1.jpg">
+	<div class="price">
+	<p>78$</p>	
+	</div>
+	<div class="rating">
+		<i class="fa fa-star"></i>
+		<i class="fa fa-star"></i>
+		<i class="fa fa-star"></i>
+		<i class="fa fa-star-half-o"></i>
+		<i class="fa fa-star-o"></i>
+	</div>
+    </div>
+	<div class="cityname">
+		<h4><a href="/mumbai">Mumbai</a></h4>
+		
+	</div>
+    </div>
+</div>
+<div class="col-md-4">
+    <div class="feature-box">
+    <div class="feature-img">
+    <img src="images/1.jpg">
+	<div class="price">
+	<p>78$</p>	
+	</div>
+	<div class="rating">
+		<i class="fa fa-star"></i>
+		<i class="fa fa-star"></i>
+		<i class="fa fa-star"></i>
+		<i class="fa fa-star-half-o"></i>
+		<i class="fa fa-star-o"></i>
+	</div>
+    </div>
+	<div class="cityname">
+		<h4><a href="/pune">Pune</a></h4>	
+		
+	</div>
+    </div>
+</div>
+<div class="col-md-4">
+    <div class="feature-box">
+    <div class="feature-img">
+    <img src="images/1.jpg">
+	<div class="price">
+	<p>78$</p>	
+	</div>
+	<div class="rating">
+		<i class="fa fa-star"></i>
+		<i class="fa fa-star"></i>
+		<i class="fa fa-star"></i>
+		<i class="fa fa-star-half-o"></i>
+		<i class="fa fa-star-o"></i>
+	</div>
+    </div>
+	<div class="cityname">
+		<h4><a href="/banglore">Banglore</a></h4>		
+		
+	</div>
+    </div>
+</div>
+<div class="col-md-4">
+    <div class="feature-box">
+    <div class="feature-img">
+    <img src="images/1.jpg">
+	<div class="price">
+	<p>78$</p>	
+	</div>
+	<div class="rating">
+		<i class="fa fa-star"></i>
+		<i class="fa fa-star"></i>
+		<i class="fa fa-star"></i>
+		<i class="fa fa-star-half-o"></i>
+		<i class="fa fa-star-o"></i>
+	</div>
+    </div>
+	<div class="cityname">
+		<h4><a href="/chennai">Chennai</a></h4>	
+	</div>
+    </div>
+</div>
+<div class="col-md-4">
+    <div class="feature-box">
+    <div class="feature-img">
+    <img src="images/1.jpg">
+	<div class="price">
+	<p>78$</p>	
+	</div>
+	<div class="rating">
+		<i class="fa fa-star"></i>
+		<i class="fa fa-star"></i>
+		<i class="fa fa-star"></i>
+		<i class="fa fa-star-half-o"></i>
+		<i class="fa fa-star-o"></i>
+	</div>
+    </div>
+	<div class="cityname">
+		<h4><a href="/delhi">Delhi</a></h4>	
+	</div>
+    </div>
+</div>
+
+</div>
+</div>
+
+</section>
+
+<section class="banner">
+	<div class="banner-highlights">
+		<div class="container">
+			<div class="row">
+			   <div class="col-md-8">
+			   <h2>Get 30% off on earlybird </h2>
+			   <p>Book your rooms before 31st march and avail 30% flat
+			   discount.</p>
+			   </div>
+			  <!-- <div class="col-md-4"></div>-->
+	
+			</div>
+		</div>
+	 </div>
+</section>
+<section class="footer">
+	<div class="container">
+	<div class="row">
+		<div class="col-md-3">
+		<img src="/images/triptok.png" class="footer-logo">
+		<p> Most efficient way to connet tenet and house owner.</p>
+            
+        <p> Available at multiple locations </p>
+
+        <p> Easy to use 
+
+
+		</p>
+		</div>
+		<div class="col-md-3">
+		<h4>LOCATIONS</h4>
+		<p>
+            Pune  Mumbai</p>
+        <p> Delhi Banglore</p>
+        <p> Nashik Chennai
+        </p>
+	</div>
+	   <div class="col-md-3">
+		<h4>Countact us </h4>
+		<p><i class="fa fa-phone-square"></i> +1 0123456789</p>
+		<p><i class="fa fa-envelope"></i> +1 0123456789</p>
+		<p><i class="fa fa-home"></i> abc road , pune</p>
+	   </div>
+		<div class="col-md-3">	<h4>Countact us </h4>
+			<p><i class="fa fa-facebook-official"></i> Facebook</p>
+			<p><i class="fa fa-youtube-play"></i> YouTube</p>
+			<p><i class="fa fa-twitter"></i> Twitter</p>
+		</div>
+	</div><hr>
+	</div>
+	</section>
+
+</body>
+
+
+</html>

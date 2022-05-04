@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/js/bootstrap.bundle.min.js">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.css"> 
+    <link rel="stylesheet" href="/stylesheets/profile.css">
+    <title>Profile</title>
+</head>
+<body>
+  <section class="header">
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">TripTok</a>
+          </div>
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="/dashboard">Home</a></li>
+            <li><a href="/about">About US</a></li>
+            <li><a href="/contactus">Contact US</a></li>
+            <li><a href="/login">Logout</a></li>
+          </ul>
+		  <div class="nav navbar-nav navbar-right">
+             <li><a href="#"><span class="glyphicon glyphicon-user"></span><%= username %></a></li>
+          </div>
+        </div>
+      </nav>
+    </section>
+    <div class="contain">
+        <div class="avatar-flip">
+          <img src="http://media.idownloadblog.com/wp-content/uploads/2012/04/Phil-Schiller-headshot-e1362692403868.jpg" height="150" width="150">
+          <img src="http://i1112.photobucket.com/albums/k497/animalsbeingdicks/abd-3-12-2015.gif~original" height="150" width="150">
+        </div>
+        <h2>Tenant Details</h2>
+
+        <h3>Tenant Name : <%= students[0].first_name %> <%= students[0].last_name %></h3>
+         
+        <h3>Email : <%= students[0].email_address %></h3>
+
+        <h3>Gender : <%= students[0].gender %></h3>
+
+        <h3>Age : <%= students[0].age %></h3>
+
+        <h3>College Name : <%= students[0].college_name %></h3>
+
+        <h3>Degree : <%= students[0].degree %></h3>
+
+        <h3>Branch Name : <%= students[0].branch_name %></h3>
+
+        <h2>Hostel Details of Tenant</h2>
+
+        <h3>Hostel name :- <%= hostels[0].name %></h3>
+
+        <h3>Address : <%= hostels[0].address %></h3>
+     
+        <h3>City : <%= hostels[0].city %></h3>
+
+        <h3>State : <%= hostels[0].state %></h3>
+      
+        <h3>Pincode : <%= hostels[0].pincode %></h3>
+    </div>
+    <section class="footer">
+      <div class="container">
+      <div class="row">
+          <div class="col-md-3">
+          <img src="images/triptok.png" class="footer-logo">
+          </div>
+          <div class="col-md-3">
+          <h4>Features </h4>
+          <p>SOME thing</p>
+          <p>SOME thing</p>
+          <p>SOME thing</p>
+      </div>
+         <div class="col-md-3">
+          <h4>Countact us </h4>
+          <p><i class="fa fa-phone-square"></i> +1 0123456789</p>
+          <p><i class="fa fa-envelope"></i> +1 0123456789</p>
+          <p><i class="fa fa-home"></i> abc road , pune</p>
+         </div>
+          <div class="col-md-3">	<h4>Countact us </h4>
+              <p><i class="fa fa-facebook-official"></i> Facebook</p>
+              <p><i class="fa fa-youtube-play"></i> YouTube</p>
+              <p><i class="fa fa-twitter"></i> Twitter</p>
+          </div>
+      </div><hr>
+      </div>
+      </section>
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,262 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+*
+{
+    padding: 0;
+    margin: 0;
+
+}
+.header
+{
+    height: 100%;
+   
+	background-image: linear-gradient(rgba(0, 0, 0,0.6), rgba(0, 0, 0,0.6)), url("/images/bck.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+	padding-top: 0px;
+	text-align: center;
+	color: white;
+}
+.header img
+{
+    width: 170px;
+    float:left;
+}
+.login-btn
+{
+   width: 100px;
+    padding: 8px 0;
+    outline: none !important;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    background: transparent;
+    color: #fff;
+	float: right;
+}
+.header h1
+{
+	padding-top:200px;
+	padding-bottom:0;
+	font-size: 45px;
+}
+body {
+    background: #d1d5db
+}
+
+.height {
+    height: 90vh
+}
+
+.form {
+    position:relative
+   
+}
+
+.form .fa-search {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: #9ca3af
+}
+
+.form span {
+    position: absolute;
+    right: 17px;
+    top: 13px;
+    padding: 2px;
+    border-left: 1px solid #d1d5db
+}
+
+.left-pan {
+    padding-left: 7px
+}
+
+.left-pan i {
+    padding-left: 10px
+}
+
+.form-input {
+    height: 55px;
+    text-indent: 33px;
+    border-radius: 10px
+}
+
+.form-input:focus {
+    box-shadow: none;
+    border: none
+}
+
+/*FEATURES*/
+
+
+.features
+{
+  padding: 100px 0;
+}
+h1
+{
+  text-align: center;
+  padding-bottom: 30p
+}
+.feature-img img
+{
+   width: 100%;
+}
+.price
+{
+   width: 50px;
+   height: 50px;
+   background: #ff5722;
+   color: #fff;
+   font-weight: 600;
+   border-radius: 50%;
+   padding: 10px;
+   box-shadow: 0 0 10px 1px rgba(37, 73, 214,0.18);
+   position: absolute;
+   left: 20px;
+   bottom: -25px;
+}
+
+.feature-img
+{
+    position: relative;
+}
+.rating
+{
+    padding: 3px;
+    float: right;
+    background: #fff;
+    bottom: -1px;
+    right: 0;
+   position: absolute;
+}
+.features .fa
+{
+    font-size: 15px;
+    color: #ff5722;
+}
+
+.cityname
+{
+   padding: 20px;
+   text-align: justify;
+}
+.h4 cityname 
+{
+   font-weight: 600;
+   margin-top: 50px;
+}
+
+.feature-box
+{
+   box-shadow: 0 0 10px 1px rgba(37,73,214,0.18);
+   margin-bottom: 30px;
+}
+.banner
+{
+   height: 80%;
+   background-image: url(/images/banner2.jpg);
+   background-position: center;
+    background-size: cover;
+   background-attachment: fixed;
+  padding-top: 14%;
+}
+.banner-highlights
+{
+   padding: 70px 0;
+   background: rgba(0,0,0,0.7);
+   text-align: center;
+   color: #fff;
+}
+
+/* footer */
+.footer
+{
+    padding: 100px 20px;
+    background-image: linear-gradient(#000000,#000000);
+    color: #fff;
+}
+.footer-logo
+{
+    width: 150px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.footer h4
+{
+   text-align: left;
+   margin-top: 15px;
+   margin-bottom: 25px;
+}
+footer p
+{
+   font-size: 12px;
+   text-align: justify;
+   padding-right: 35px;
+}
+.footer .row .fa
+{
+   padding-right: 20px;
+   font-size: 15px;
+}
+.footer hr
+{
+  margin-top: 10px;
+  background: #efefef;
+}
+.search,form{
+    width: 100%;
+    position: relative;
+    display: flex;
+  }
+  
+
+form .searchTerm {
+    width: 100%;
+    border: 5px solid #00B4CC;
+    border-right: none;
+    padding: 5px;
+    height: 35px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #9DBFAF;
+  }
+  
+form .searchTerm:focus{
+    color: #00B4CC;
+  }
+  
+form .searchButton {
+    width: 40px;
+    height: 36px;
+    border: 1px solid #00B4CC;
+    background: #00B4CC;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+    float: right;
+  }
+  
+  /*Resize the wrap to see the search bar change!*/
+  .wrap{
+    width: 30%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .container1{
+    
+    background-image: linear-gradient(45deg, #FFFFFF, rgb(82, 133, 188));
+
+      
+
+  }
+  .card-text{
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-size: 20px;
+  }

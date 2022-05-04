@@ -1,0 +1,69 @@
+.header
+{
+    height: 100%;
+   
+	background-image: linear-gradient(rgba(0, 0, 0,0.6), rgba(0, 0, 0,0.6)), url("/images/bck.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+	text-align: center;
+	color: white;
+}
+.header img
+{
+    width: 170px;
+    float:left;
+}
+.login-btn
+{
+   width: 100px;
+    padding: 8px 0;
+    outline: none !important;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    background: transparent;
+    color: #fff;
+	float: right;
+}
+.header h1
+{
+	padding-top:200px;
+	padding-bottom:0;
+	font-size: 45px;
+}
+*
+.footer
+{
+    padding: 100px 20px;
+    background-image: linear-gradient(#000000,#000000);
+    color: #fff;
+}
+.footer-logo
+{
+    width: 150px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.footer h4
+{
+   text-align: left;
+   margin-top: 15px;
+   margin-bottom: 25px;
+}
+footer p
+{
+   font-size: 12px;
+   text-align: justify;
+   padding-right: 35px;
+}
+.footer .row .fa
+{
+   padding-right: 20px;
+   font-size: 15px;
+}
+.footer hr
+{
+  margin-top: 10px;
+  background: #efefef;
+}

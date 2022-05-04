@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Node.js Express Save Data from Html Form to Mysql Database - Tutsmake.com</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/stylesheets/style1.css">
+  </head>
+  <body>
+    <div class="container mt-4">
+      <div class="card">
+        <div class="card-body">
+          <h2>Hostel Owner Form</h2>
+          <p style="color: white;"><%=(typeof alertMsg!='undefined')? alertMsg:''%></p>
+          <div class="wrapper">
+            <div class="form-container">
+             <div class="form-inner">
+          <form action="/hostel" method="POST">
+            <div class="field">
+              <input type="text" id="f_name" placeholder="Enter Hostel name" name="h_name">
+            </div>
+            <div class="field">
+              <input type="email" id="f_name" placeholder="Enter email address" name="email_address">
+            </div>
+            <div class="field">
+              <input type="text" placeholder="Enter your address" name="address">
+            </div>
+            <div class="field">
+              <input type="text"  name="city" placeholder="Enter city">
+            </div>        
+            <div class="field">
+              <input type="text" placeholder="Enter state" name="state">
+            </div>
+            <div class="field">
+              <input type="text" placeholder="Enter pincode" name="pincode">
+            </div>
+            <div class="field">
+              <input type="text" placeholder="Enter number of rooms" name="rooms">
+            </div>
+            <div class="field">
+              <input type="text" placeholder="Enter number of vacant rooms" name="roomsvac">
+            </div>
+            <div class="field">
+              <input type="text" placeholder="Enter Rent" name="rent">
+            </div>
+          <div class="field btn">
+            <button type="submit">Apply</button>
+          </div>
+        </div>
+          <div class="signup-link">Already applied? <a href="/dashboard_hostel_owner">Dashboard</a></div>
+          </form>
+        </div>
+    </div>
+  </div>
+  </body>
+</html>
