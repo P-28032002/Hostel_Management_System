@@ -29,6 +29,6 @@ you're good to go !!! :)
 ```
 ## Results
 ### Tenant Dashboard!
-[Tenant_Dashboard_1](https://user-images.githubusercontent.com/62355243/166638612-3691fbd9-a612-4b5b-830f-3480ebac8577.jpg)
+[Tenant_Dashboard_1](https://github.com/P-28032002/Hostel_Management_System/Results/Tenant_Dashboard_1.jpg)
 
 
