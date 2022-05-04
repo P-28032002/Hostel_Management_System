@@ -90,6 +90,24 @@ you're good to go !!! :)
 
 ## Hostel Owner
 
-## Hostel Owner Dashboard
+### Hostel Owner Dashboard
 
-<img src="/Results/Thank_you_Page.jpg">
+<img src="/Results/Hostel_owner_dasboard.jpg">
+
+<img src="/Results/Hostel_owner_dasboard_2.jpg">
+
+<img src="/Results/Hostel_owner_dasboard_3.jpg">
+
+## Post Hostels
+
+<img src="/Results/Hostel_post.jpg">
+
+## Appliad Tenants 
+
+<img src="/Results/Applied_tenant_info.jpg">
+
+## Payments received from Tenants
+
+<img src="/Results/Payment_recieved_from_tenant.jpg">
+
+
